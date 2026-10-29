@@ -7,13 +7,13 @@ leaving the terminal.
 ## Install
 
 ```bash
-npm install -g quolle
+npm install -g @quolle/cli
 ```
 
 Or run it without installing:
 
 ```bash
-npx quolle --help
+npx @quolle/cli --help
 ```
 
 Requires Node.js 20+.
