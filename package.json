@@ -1,0 +1,38 @@
+{
+  "name": "quolle",
+  "version": "1.0.0",
+  "description": "Official command-line interface for Quolle — send transactional email, manage domains, and inspect logs from your terminal.",
+  "license": "MIT",
+  "homepage": "https://quolle.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quolle-main/quolle-cli.git"
+  },
+  "bugs": "https://github.com/Quolle-main/quolle-cli/issues",
+  "type": "module",
+  "bin": {
+    "quolle": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "quolle",
+    "cli",
+    "email",
+    "transactional-email",
+    "terminal"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.5"
+  }
+}
