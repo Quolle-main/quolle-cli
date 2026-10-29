@@ -1,6 +1,6 @@
 {
   "name": "@quolle/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official command-line interface for Quolle — send transactional email, manage domains, and inspect logs from your terminal.",
   "license": "MIT",
   "homepage": "https://quolle.com",
