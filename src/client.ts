@@ -2,7 +2,7 @@
 // matching the semantics of the language SDKs (retry 429 except quota limits; retry 5xx /
 // network only for idempotent methods or when an Idempotency-Key is present).
 
-export const VERSION = "1.0.0";
+export const VERSION = "1.0.1";
 
 export class QuolleCliError extends Error {
   statusCode: number;
